@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "NFM21PC105B1C3D"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "NFM21PC105B1C3D")
+        (spec "default")
+    )
+)

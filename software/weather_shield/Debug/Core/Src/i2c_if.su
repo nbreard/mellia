@@ -1,0 +1,2 @@
+i2c_if.c:6:8:user_i2c_read	48	static
+i2c_if.c:40:8:user_i2c_write	40	static

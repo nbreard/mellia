@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+    <language id="org.eclipse.cdt.core.assembly" name="s,S"/>
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Drivers/CMSIS/Core/Include</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Drivers/CMSIS/Include</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Drivers/CMSIS/Device/ST/STM32WLxx/Include</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Drivers/STM32WLxx_HAL_Driver/Inc</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Application/User/Core/Inc</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Drivers/BSP/STM32WLxx_Nucleo</includepath>
+      <includepath>../LoRaWAN/App</includepath>
+      <includepath>../LoRaWAN/Target</includepath>
+      <includepath>../../../../../../Utilities/trace/adv_trace</includepath>
+      <includepath>../../../../../../Utilities/misc</includepath>
+      <includepath>../../../../../../Utilities/sequencer</includepath>
+      <includepath>../../../../../../Utilities/timer</includepath>
+      <includepath>../../../../../../Utilities/lpm/tiny_lpm</includepath>
+      <includepath>../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages</includepath>
+      <includepath>../../../../../../Middlewares/Third_Party/SubGHz_Phy</includepath>
+      <includepath>../../../../../../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver</includepath>
+      <includepath>../../../../../../Middlewares/Third_Party/LoRaWAN/Crypto</includepath>
+      <includepath>../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region</includepath>
+      <includepath>../../../../../../Middlewares/Third_Party/LoRaWAN/Mac</includepath>
+      <includepath>../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler</includepath>
+      <includepath>../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Sensors/Inc</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Drivers/BSP/components/BME680_driver/Self test</includepath>
+      <includepath>/home/nicolas/STM32CubeIDE/workspace_1.7.0/ruche-connectee/mellia/STM32Cube_FW_WL_V1.1.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/STM32CubeIDE/Drivers/BSP/components/BME680_driver</includepath>
+    </language>
+    <language name="Object File"/>
+  </section>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+    <language id="org.eclipse.cdt.core.assembly" name="s,S">
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+    </language>
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>CORE_CM4</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32WL55xx</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>USE_HAL_DRIVER</name>
+        <value/>
+      </macro>
+    </language>
+    <language name="Object File"/>
+  </section>
+</cdtprojectproperties>

@@ -1,0 +1,3 @@
+flash.c:12:19:memory_erasePage	24	static
+flash.c:32:19:memory_write	32	static
+flash.c:64:19:memory_read	32	static

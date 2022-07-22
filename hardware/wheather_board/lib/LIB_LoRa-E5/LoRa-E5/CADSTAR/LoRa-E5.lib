@@ -1,0 +1,18 @@
+.LoRa-E5 :1 ;LoRa Wireless Module - Powered by STM32WE5
+LoRaE5
+*STM IC
+*NGS
+*PLB 1="VCC" 2="GND_1" 3="PA13" 4="PA14" 5="PB15" 6="PA15" 7="PB4" 8="PB3" 9="PB7" 10="PB6" 11="PB5" 12="PC1" 13="PC0" 14="GND_2" 15="RFIO" 16="GND_3" 17="RST" 18="PA3" 19="PA2" 20="PB10" 21="PA9" 22="GND_4" 23="PA0" 24="PB13" 25="PB9" 26="PB14" 27="PA10" 28="PB0"
+*MXP 28
+*DFN LoRa-E5
+~!Manufacturer_Name (Seeed Studio)
+~!Manufacturer_Part_Number (LoRa-E5)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://no.mouser.com/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf)
+~!Height (2.5mm)
+~!3D_Model (LoRa-E5)
+LoRa-E5
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 

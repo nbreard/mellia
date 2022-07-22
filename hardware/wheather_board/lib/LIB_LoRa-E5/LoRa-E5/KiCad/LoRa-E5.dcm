@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LoRa-E5
+D LoRa Wireless Module - Powered by STM32WE5
+K
+F https://no.mouser.com/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf
+$ENDCMP
+#
+#End Doc Library

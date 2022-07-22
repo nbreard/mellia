@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LoRa-E5"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-08-10-09:26:19)
+    (mountForm default
+        (footprintRef "LoRaE5")
+        (spec "System")
+    )
+)

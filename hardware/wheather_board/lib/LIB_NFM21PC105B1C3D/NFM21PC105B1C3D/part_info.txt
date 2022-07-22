@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=NFM21PC105B1C3D
+PartCategory=Filter
+PackageCategory=Other
+PinCount=4
+Version=4.1
+Released=2016-07-17 21:10:09
+Downloaded=2022-01-13 10:33:35
+3D=Y

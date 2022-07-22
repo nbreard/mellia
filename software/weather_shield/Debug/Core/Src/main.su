@@ -1,0 +1,14 @@
+core_cm4.h:2059:26:ITM_SendChar	16	static,ignoring_inline_asm
+main.c:84:5:main	16	static
+main.c:200:6:SystemClock_Config	96	static
+main.c:257:6:MX_ADC1_Init	48	static
+main.c:329:6:MX_I2C1_Init	8	static
+main.c:375:13:MX_RTC_Init	8	static
+main.c:417:13:MX_UART5_Init	8	static
+main.c:452:13:MX_USART2_UART_Init	8	static
+main.c:487:13:MX_GPIO_Init	48	static
+main.c:527:5:__io_putchar	16	static
+main.c:533:6:_write	32	static
+main.c:543:6:HAL_RTCEx_WakeUpTimerEventCallback	16	static
+main.c:549:6:HAL_UART_RxCpltCallback	16	static
+main.c:572:6:Error_Handler	4	static,ignoring_inline_asm

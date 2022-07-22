@@ -1,0 +1,2 @@
+gas_sensor.c:10:21:gas_Sensor_Init	24	static
+gas_sensor.c:33:21:gas_Sensor_Read_data	144	static

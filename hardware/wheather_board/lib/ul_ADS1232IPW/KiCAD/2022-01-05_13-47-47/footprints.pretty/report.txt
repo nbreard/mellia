@@ -1,0 +1,67 @@
+Info: Checking netlist symbol footprint "R6:/61D503CD:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "J1:/6201B012:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal".
+Info: Checking netlist symbol footprint "J2:/61DCC38A:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal".
+Info: Checking netlist symbol footprint "J3:/61FA3FD2:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal".
+Info: Checking netlist symbol footprint "J4:/61EB9BB6:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J5:/61C55EAB:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J6:/61FE5CB1:Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J7:/61D711D3:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J8:/61FB21D0:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J9:/61E553DC:Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical".
+Info: Checking netlist symbol footprint "L1:/61E52CD5:Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R1:/61DDC9D0:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R2:/61DDCB09:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R3:/61DDCC24:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R4:/61DDCD4D:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R5:/61D4FB14:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "C1:/61C1F876:Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder".
+Info: Checking netlist symbol footprint "R7:/61D5179A:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R8:/61D385D6:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R9:/61E04A89:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R10:/61E04AA0:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R11:/61D9D81E:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R12:/61DB20D3:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "R13:/61E73837:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Checking netlist symbol footprint "SW1:/61C4C7D1:Button_Switch_SMD:SW_SPST_TL3305A".
+Info: Checking netlist symbol footprint "U1:/61C1F3FD:Package_TO_SOT_SMD:SOT-223-3_TabPin2".
+Info: Checking netlist symbol footprint "U2:/61D32ACA:Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering".
+Info: Checking netlist symbol footprint "U3:/61D329A3:ads1232:ADS1232IPW".
+Info: Checking netlist symbol footprint "U4:/61C20986:ld39050:LD39050PUR".
+Info: Checking netlist symbol footprint "U5:/61D32C89:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm".
+Info: Checking netlist symbol footprint "U6:/61C46E2B:LoRa-E5_kicad:LoRa-E5".
+Info: Checking netlist symbol footprint "C29:/61E53D4A:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C2:/61D5D3A6:Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder".
+Info: Checking netlist symbol footprint "C3:/61D81506:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C4:/61D484AA:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C5:/61C1F8DA:Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder".
+Info: Checking netlist symbol footprint "C6:/61D48601:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C7:/61D57B7D:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C8:/61C249CF:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C9:/61C24E01:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C10:/61C2805D:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C11:/61C28143:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C12:/61E04A7B:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C13:/61E04A99:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C14:/61D3EE88:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C15:/61D996F6:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C17:/61E04A82:Capacitor_SMD:NFM21PC105B1C3D".
+Info: Checking netlist symbol footprint "D1:/61C2054A:Diode_SMD:D_SMB-SMC_Universal_Handsoldering".
+Info: Checking netlist symbol footprint "C28:/61C516A6:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C27:/61E535F3:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C26:/61C46F7A:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C25:/61D97939:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C24:/61D3392B:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C23:/61D3846A:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C22:/61E04A74:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C21:/61D33889:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Info: Checking netlist symbol footprint "C20:/61DA9B1A:Capacitor_SMD:NFM21PC105B1C3D".
+Info: Checking netlist symbol footprint "C19:/61D997EC:Capacitor_SMD:NFM21PC105B1C3D".
+Info: Checking netlist symbol footprint "C18:/61E04A91:Capacitor_SMD:NFM21PC105B1C3D".
+Info: Checking netlist symbol footprint "C16:/61DB1FF3:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder".
+Error: Cannot add new symbol U4 due to missing footprint ld39050:LD39050PUR.
+Error: U4 footprint "LD39050PUR" not found in any libraries in the footprint library table.
+
+Error: Symbol SW1 pad 4 not found in footprint Button_Switch_SMD:SW_SPST_TL3305A.
+
+Error: Symbol SW1 pad 3 not found in footprint Button_Switch_SMD:SW_SPST_TL3305A.
+

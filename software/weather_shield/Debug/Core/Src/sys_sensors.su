@@ -1,0 +1,8 @@
+sys_sensors.c:183:10:EnvSensors_Read	32	static
+sys_sensors.c:221:20:EnvSensors_Init	4	static
+sys_sensors.c:280:20:Bme680Sensors_Read	16	static
+sys_sensors.c:290:20:Bme680Sensors_Init	8	static
+sys_sensors.c:304:6:ADS1232Sensors_Init	16	static
+sys_sensors.c:314:19:NTCRead	48	static
+sys_sensors.c:355:6:ADS1232Power	88	static
+sys_sensors.c:396:19:ADS1232Read	104	static

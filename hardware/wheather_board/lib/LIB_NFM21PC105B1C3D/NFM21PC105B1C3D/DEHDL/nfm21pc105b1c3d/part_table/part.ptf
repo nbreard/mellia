@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NFM21PC105B1C3D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "NFM21PC105B1C3D" (!) = "", "NFM21PC105B1C3D", "Other", "81-NFM21PC105B1C3D", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/NFM21PC105B1C3D?qs=OWtbBJ4e7yEin%2F%2F4EPpx1w%3D%3D", "NFM21PC105B1C3D", "https://www.arrow.com/en/products/nfm21pc105b1c3d/murata-manufacturing?region=nac", "MURATA - NFM21PC105B1C3D - FILTER, SUPPRESSION, 0805, 1UF, 16VDC", "https://psearch.en.murata.com/capacitor/product/NFM21PC105B1C3%23.html", "0.95 mm"
+END_PART
+
+END.

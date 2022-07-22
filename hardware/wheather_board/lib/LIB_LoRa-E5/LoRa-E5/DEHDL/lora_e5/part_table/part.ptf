@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LoRa_E5'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Seeed Studio", "LoRa-E5" (!) = "", "LoRaE5", "Other", "", "", "", "", "LoRa Wireless Module - Powered by STM32WE5", "https://no.mouser.com/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf", "2.5 mm"
+END_PART
+
+END.

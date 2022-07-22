@@ -1,0 +1,40 @@
+2022-05-18 12:10:41,251 [INFO] Activator:177 - 
+
+
+2022-05-18 12:10:41,253 [INFO] Activator:178 - !SESSION log4j initialized
+2022-05-18 12:10:43,176 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-05-18 13:58:50,945 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.arm.toolchain.v6.base.options.debug.level.1499740772 uses a null category that is invalid in its context. The option was ignored.
+2022-05-18 13:58:50,946 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.arm.toolchain.v6.base.options.target.cpu_fpu.1353770567 uses a null category that is invalid in its context. The option was ignored.
+2022-05-18 13:58:50,946 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.arm.toolchain.v6.base.options.floatabi.1576425190 uses a null category that is invalid in its context. The option was ignored.
+2022-05-18 13:58:50,947 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.arm.toolchain.v6.base.options.inst.1967567497 uses a null category that is invalid in its context. The option was ignored.
+2022-05-18 13:58:50,948 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.arm.toolchain.v6.base.options.endian.245086353 uses a null category that is invalid in its context. The option was ignored.
+2022-05-18 13:58:51,013 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.arm.toolchain.ac5.option.target.cpu_fpu.1203405248 uses a null category that is invalid in its context. The option was ignored.
+2022-05-18 13:58:51,014 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.arm.toolchain.ac5.option.endian.1245571568 uses a null category that is invalid in its context. The option was ignored.
+2022-05-18 16:49:47,972 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SWT SessionManagerDBus: Failed to UnregisterClient: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+2022-05-19 09:46:59,892 [INFO] Activator:177 - 
+
+
+2022-05-19 09:46:59,893 [INFO] Activator:178 - !SESSION log4j initialized
+2022-05-19 09:47:04,407 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-05-19 16:58:40,671 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SWT SessionManagerDBus: Failed to UnregisterClient: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+2022-05-25 15:16:52,676 [INFO] Activator:177 - 
+
+
+2022-05-25 15:16:52,678 [INFO] Activator:178 - !SESSION log4j initialized
+2022-05-25 15:16:57,191 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-05-25 17:36:57,392 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SWT SessionManagerDBus: Failed to UnregisterClient: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+2022-05-30 11:12:01,044 [INFO] Activator:177 - 
+
+
+2022-05-30 11:12:01,046 [INFO] Activator:178 - !SESSION log4j initialized
+2022-05-30 11:12:06,438 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-05-31 15:08:09,368 [INFO] Activator:177 - 
+
+
+2022-05-31 15:08:09,370 [INFO] Activator:178 - !SESSION log4j initialized
+2022-05-31 15:08:13,827 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-05-31 17:00:39,985 [INFO] Activator:177 - 
+
+
+2022-05-31 17:00:39,987 [INFO] Activator:178 - !SESSION log4j initialized
+2022-05-31 17:00:43,923 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com

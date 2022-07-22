@@ -1,0 +1,6 @@
+ringbuffer.c:17:6:buffer_init	32	static
+ringbuffer.c:35:19:buffer_put	24	static
+ringbuffer.c:45:6:__movecursor	16	static
+ringbuffer.c:57:19:buffer_get	32	static
+ringbuffer.c:66:19:buffer_flush	24	static
+ringbuffer.c:81:6:buffer_example	88	static

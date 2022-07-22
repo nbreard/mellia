@@ -1,0 +1,19 @@
+.NFM21PC105B1C3D :1 ;MURATA - NFM21PC105B1C3D - FILTER, SUPPRESSION, 0805, 1UF, 16VDC
+NFM21PC105B1C3D
+*STM FL
+*NGS
+*PNM 1=1 2=3 3=A2 4=B2
+*PLB 1="IN" 2="OUT" 3="GND_1" 4="GND_2"
+*MXP 4
+*DFN NFM21PC105B1C3D
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (NFM21PC105B1C3D)
+~!Mouser Part Number (81-NFM21PC105B1C3D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/NFM21PC105B1C3D?qs=OWtbBJ4e7yEin%2F%2F4EPpx1w%3D%3D)
+~!Arrow Part Number (NFM21PC105B1C3D)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/nfm21pc105b1c3d/murata-manufacturing?region=nac)
+~!Link Datasheet (https://psearch.en.murata.com/capacitor/product/NFM21PC105B1C3%23.html)
+~!Height (0.95mm)
+~!3D_Model (NFM21PC105B1C3D)
+NFM21PC105B1C3D
+1.1!U 2.1!U 3.1!U 4.1!U 

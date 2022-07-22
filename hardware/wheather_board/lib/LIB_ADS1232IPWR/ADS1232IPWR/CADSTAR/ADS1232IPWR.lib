@@ -1,0 +1,18 @@
+.ADS1232IPWR :1 ;24-Bit, 80SPS, 2-Ch (Differential), Pin-Programmable Delta-Sigma ADC for Bridge Sensors
+SOP65P640X120-24N
+*STM IC
+*NGS
+*PLB 1="DVDD" 2="DGND_1" 3="CLKIN/XTAL1" 4="XTAL2" 5="DGND_2" 6="DGND_3" 7="TEMP" 8="A0" 9="CAP_1" 10="CAP_2" 11="AINP1" 12="AINN1" 13="AINN2" 14="AINP2" 15="REFN" 16="REFP" 17="AGND" 18="AVDD" 19="GAIN0" 20="GAIN1" 21="SPEED" 22="'PDWN'" 23="SCLK" 24="'DRDY'/DOUT"
+*MXP 24
+*DFN ADS1232IPWR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ADS1232IPWR)
+~!Mouser Part Number (595-ADS1232IPWR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1232IPWR?qs=RaXRGs7zCv4BjWfKxNB1Dw%3D%3D)
+~!Arrow Part Number (ADS1232IPWR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ads1232ipwr/texas-instruments)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/ads1232.pdf)
+~!Height (1.2mm)
+~!3D_Model (ADS1232IPWR)
+ADS1232IPWR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

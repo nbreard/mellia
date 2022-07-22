@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS1232IPWR
+D 24-Bit, 80SPS, 2-Ch (Differential), Pin-Programmable Delta-Sigma ADC for Bridge Sensors
+K
+F http://www.ti.com/lit/ds/symlink/ads1232.pdf
+$ENDCMP
+#
+#End Doc Library

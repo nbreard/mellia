@@ -1,0 +1,21 @@
+!SESSION 2022-07-21 11:26:40.429 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-07-21 11:26:52.679
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-07-21 11:26:52.723
+!MESSAGE Log4j initialized with config file /home/nicolas/md10-board/software/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-07-21 11:26:54.435
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-07-21 11:27:15.486
+!MESSAGE Using unsafe http transport to retrieve http://eclipse.baeyens.it/update/V4/stable/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-21 11:27:26.144
+!MESSAGE Indexed 'LoRaWAN_End_Node' (141 sources, 210 headers) in 7.02 sec: 20,413 declarations; 102,801 references; 0 unresolved inclusions; 1 syntax errors; 11 unresolved names (0.0089%)

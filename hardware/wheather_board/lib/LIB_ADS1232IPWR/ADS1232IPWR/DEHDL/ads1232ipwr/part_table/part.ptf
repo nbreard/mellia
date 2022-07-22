@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADS1232IPWR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ADS1232IPWR" (!) = "", "SOP65P640X120-24N", "Small Outline Packages", "595-ADS1232IPWR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1232IPWR?qs=RaXRGs7zCv4BjWfKxNB1Dw%3D%3D", "ADS1232IPWR", "https://www.arrow.com/en/products/ads1232ipwr/texas-instruments", "24-Bit, 80SPS, 2-Ch (Differential), Pin-Programmable Delta-Sigma ADC for Bridge Sensors", "http://www.ti.com/lit/ds/symlink/ads1232.pdf", "1.2 mm"
+END_PART
+
+END.

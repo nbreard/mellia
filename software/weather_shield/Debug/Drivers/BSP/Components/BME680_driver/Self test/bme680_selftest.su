@@ -1,0 +1,2 @@
+bme680_selftest.c:61:8:bme680_self_test	232	static
+bme680_selftest.c:133:15:analyze_sensor_data	24	static

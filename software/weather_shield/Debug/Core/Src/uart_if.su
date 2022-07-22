@@ -1,0 +1,2 @@
+uart_if.c:13:19:at_Com	296	static
+uart_if.c:49:19:at_send	40	static

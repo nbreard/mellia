@@ -1,0 +1,3 @@
+rtc_if.c:14:19:setDate	176	static
+rtc_if.c:85:19:setAlarm	56	static
+rtc_if.c:124:6:stopWithAlarm	40	static
