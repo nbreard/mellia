@@ -128,3 +128,14 @@ On a besoin de 3 paramètres :
 À l’aide de ces trois données on peut en déduire l’équation 1 puis la 2 . On place un points d’arrêt dans le code après la mesure pour récupérer cfs et czs.
 
 Les paramètres wzs et m sont à introduire en dur dans le code dans la fonction d’initialisation de l’ads1232 : void ADS1232Sensors\_Init(sensor\_t \*sensor\_data) 
+
+#### Node-red
+
+Node-red est un outil de développement basé sur les flux. Il sert ici à récupérer les données en provenance du broker MQTT fournit par TTN et à les enregistrer dans une base de donnée influxDB. Les ressources pour le déployer se situe dans le répertoir software
+
+Pour se connecter au broker on commence par ajouter le module MQTT à l'interface node red en suivant ce tutoriel : 
+https://www.thethingsnetwork.org/forum/t/mqtt-in-node-red-howto/39909
+
+NB : nous utilisons Orange plutôt que TTN pour recevoir les données LoRa mais le principe est le même 
+
+
