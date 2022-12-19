@@ -1,0 +1,296 @@
+[
+    {
+        "id": "33e9f88c379105d1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "82fe82a7d32b6b85",
+        "type": "json",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "15993942a0444c0a",
+                "43baf7de597bbf94"
+            ]
+        ]
+    },
+    {
+        "id": "bbf5789abbdc4e5b",
+        "type": "inject",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"type\":\"dataMessage\",\"version\":1,\"streamId\":\"urn:lo:nsid:md10:05\",\"timestamp\":\"2022-11-16T12:48:17.898Z\",\"location\":{\"lat\":45.03745,\"lon\":3.895909,\"alt\":0.0,\"accuracy\":10000.0,\"provider\":\"lora\"},\"model\":\"lora_v0\",\"value\":{\"payload\":\"0073240e01670064026700640367012c04687805684406024948\"},\"tags\":[],\"extra\":{},\"metadata\":{\"source\":\"urn:lo:nsid:md10:05\",\"group\":{\"id\":\"root\",\"path\":\"/\"},\"connector\":\"lora\",\"network\":{\"lora\":{\"devEUI\":\"70B3D57ED005694A\",\"port\":2,\"fcnt\":149,\"missingFcnt\":0,\"rssi\":-116.0,\"snr\":-11.0,\"esp\":-127.33,\"sf\":11,\"frequency\":867.3,\"signalLevel\":2,\"ack\":false,\"messageType\":\"UNCONFIRMED_DATA_UP\",\"location\":{\"lat\":45.03745,\"lon\":3.895909,\"alt\":0.0,\"accuracy\":10000.0,\"provider\":\"lora\"},\"gatewayCnt\":1}}},\"created\":\"2022-11-16T12:48:19.328Z\"}",
+        "payloadType": "str",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "82fe82a7d32b6b85"
+            ]
+        ]
+    },
+    {
+        "id": "847fbf385115abdb",
+        "type": "inject",
+        "z": "33e9f88c379105d1",
+        "name": "payload with mass",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"end_device_ids\":{\"device_id\":\"weather-shield-01\",\"application_ids\":{\"application_id\":\"rucheiot\"},\"dev_eui\":\"2CF7F120249004EE\",\"join_eui\":\"8000000000000006\",\"dev_addr\":\"260B65D0\"},\"correlation_ids\":[\"as:up:01FNE9K0R0JBE4MNBDNEMHDFTP\",\"gs:conn:01FNCTAKHZPQE0D2AZYMEQQ1Q0\",\"gs:up:host:01FNCTAKJ6MC2X0W1MSX14MTMZ\",\"gs:uplink:01FNE9K0HGHRM7G64NHN2P5EVA\",\"ns:uplink:01FNE9K0HHTZ3ZESGXZCKZYE8N\",\"rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01FNE9K0HHAJ8PT7GQCWRS2GEP\",\"rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01FNE9K0QZQ8D0K9XRJ9WNFZP8\"],\"received_at\":\"2021-11-26T14:15:04.193603839Z\",\"uplink_message\":{\"session_key_id\":\"AX1cmTDODR8sOCWKDX5wrg==\",\"f_port\":2,\"frm_payload\":\"AHMkQAFnYfgCZyCAAwIBLARoUAVoDA==\",\"decoded_payload\":{\"analog_in_3\":3,\"barometric_pressure_0\":928,\"relative_humidity_4\":40,\"relative_humidity_5\":6,\"temperature_1\":2508,\"temperature_2\":832},\"rx_metadata\":[{\"gateway_ids\":{\"gateway_id\":\"os-gateway-01\",\"eui\":\"58A0CBFFFE802027\"},\"time\":\"2021-11-26T14:15:03.940934Z\",\"timestamp\":2312543468,\"rssi\":-51,\"channel_rssi\":-51,\"snr\":8,\"location\":{\"latitude\":45.041265109041234,\"longitude\":3.880657553672791,\"altitude\":580,\"source\":\"SOURCE_REGISTRY\"},\"uplink_token\":\"ChsKGQoNb3MtZ2F0ZXdheS0wMRIIWKDL//6AICcQ7LnazggaDAjn14ONBhDXsLvVAyDg89PypqILKgwI59eDjQYQ8IbWwAM=\"}],\"settings\":{\"data_rate\":{\"lora\":{\"bandwidth\":125000,\"spreading_factor\":12}},\"coding_rate\":\"4/5\",\"frequency\":\"867100000\",\"timestamp\":2312543468,\"time\":\"2021-11-26T14:15:03.940934Z\"},\"received_at\":\"2021-11-26T14:15:03.985911975Z\",\"confirmed\":true,\"consumed_airtime\":\"1.974272s\",\"network_ids\":{\"net_id\":\"000013\",\"tenant_id\":\"ttn\",\"cluster_id\":\"ttn-eu1\"}}}",
+        "payloadType": "str",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "82fe82a7d32b6b85"
+            ]
+        ]
+    },
+    {
+        "id": "653587eb58beb776",
+        "type": "influxdb out",
+        "z": "33e9f88c379105d1",
+        "influxdb": "5657800483ba9f7e",
+        "name": "",
+        "measurement": "weather_data",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "mielia",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1070,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "929c4417faaec8e4",
+        "type": "comment",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "info": "SELECT internal_temperature FROM \"weather_data\" WHERE id_balance='weather-shield-01'",
+        "x": 720,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "d59a3b5bce385e49",
+        "type": "comment",
+        "z": "33e9f88c379105d1",
+        "name": "apiliveobj",
+        "info": "c83dfb0bed6e4bd89605bcd8ba249a3b",
+        "x": 720,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "597bacc4233c7e34",
+        "type": "mqtt in",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "topic": "fifo/MD10-FIFO",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "96b9fd6f6a48c2d2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 80,
+        "y": 120,
+        "wires": [
+            [
+                "82fe82a7d32b6b85"
+            ]
+        ]
+    },
+    {
+        "id": "26f38f3bf110e8d0",
+        "type": "cayennelpp-decoder",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "x": 500,
+        "y": 400,
+        "wires": [
+            [
+                "15332f82a16fba9d"
+            ]
+        ]
+    },
+    {
+        "id": "15993942a0444c0a",
+        "type": "function",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "func": "msg.payload=msg.payload.value.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 300,
+        "wires": [
+            [
+                "26f38f3bf110e8d0"
+            ]
+        ]
+    },
+    {
+        "id": "43baf7de597bbf94",
+        "type": "function",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "func": "id= msg.payload.streamId;\n\nmsg.payload= {\n    \n    streamID:id\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 220,
+        "wires": [
+            [
+                "15332f82a16fba9d"
+            ]
+        ]
+    },
+    {
+        "id": "151ff0b0ec935ae8",
+        "type": "function",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "func": "\np=msg.payload;\n\nid=p.streamID;\n\nexternal_temperature=p.temperature_1;\ninternal_temperature=p.temperature_3;\nbarometric_pressure=p.barometric_pressure_0;\ninternal_humidity=p.relative_humidity_4;\nexternal_humidity=p.relative_humidity_5;\n\nmasse=p.analog_in_6;\n\n\n\nmsg.payload= {\n    \n    streamID:id,\n    external_temperature:external_temperature,\n    internal_temperature:internal_temperature,\n    barometric_pressure:barometric_pressure,\n    external_humidity:external_humidity,\n    internal_humidity:internal_humidity,\n    masse:masse\n    \n} \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 300,
+        "wires": [
+            [
+                "653587eb58beb776",
+                "8c3b6a8cabbfd66c"
+            ]
+        ]
+    },
+    {
+        "id": "15332f82a16fba9d",
+        "type": "join",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 690,
+        "y": 220,
+        "wires": [
+            [
+                "151ff0b0ec935ae8"
+            ]
+        ]
+    },
+    {
+        "id": "8c3b6a8cabbfd66c",
+        "type": "debug",
+        "z": "33e9f88c379105d1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5657800483ba9f7e",
+        "type": "influxdb",
+        "hostname": "http://influxdb",
+        "port": "8086",
+        "protocol": "http",
+        "database": "mielia",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.8-flux",
+        "url": "http://influxdb:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "96b9fd6f6a48c2d2",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "liveobjects.orange-business.com",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "1",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
