@@ -129,6 +129,9 @@ On a besoin de 3 paramètres :
 
 Les paramètres wzs et m sont à introduire en dur dans le code dans la fonction d’initialisation de l’ads1232 : void ADS1232Sensors\_Init(sensor\_t \*sensor\_data) 
 
+Lors de l'assemblage d'une nouvelle balance, il est important de sélectionner les variables pour une jauge de 100kg ou de 250kg dans la fonction ADS1232Sensors_Init() contenu dans weight_sensor.c
+
+
 #### Node-red
 
 Node-red est un outil de développement basé sur les flux. Il sert ici à récupérer les données en provenance du broker MQTT fournit par TTN et à les enregistrer dans une base de donnée influxDB. Les ressources pour le déployer se situe dans le répertoir software
